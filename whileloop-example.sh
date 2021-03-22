@@ -1,9 +1,10 @@
-#!/bin/bash
+#!/bin/bas
+
 #2021-03-17 Soo
 
 COUNTER=0 
 while [ $COUNTER -lt 10 ] 
 do
-echo The counter is $COUNTER 
-let COUNTER=$COUNTER+1 
+	echo The counter is $COUNTER
+	let COUNTER=$COUNTER+1
 done
